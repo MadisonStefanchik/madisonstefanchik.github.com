@@ -1,0 +1,12 @@
+
+ErrorDocument 400 /errorpages/error.html
+ErrorDocument 401 /errorpages/error.html
+ErrorDocument 403 /errorpages/error.html
+ErrorDocument 404 /errorpages/error.html
+ErrorDocument 500 /errorpages/error.html
+
+// 401 - Authorization Required
+// 400 - Bad request
+// 403 - Forbidden
+// 500 - Internal Server Error
+// 404 - Wrong page
