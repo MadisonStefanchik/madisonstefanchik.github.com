@@ -3,6 +3,9 @@ body {
 	color:#FFFFFF;
 	}
 	
-img#underconstruction {
-	padding: 175px 200px 400px;
+div.uc img {
+	padding-top:175px;
+	padding-bottom:250px;
+	padding-right:200px;
+	padding-left:205px;
 	}
