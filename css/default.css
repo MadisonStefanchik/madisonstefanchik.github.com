@@ -2,6 +2,9 @@ body {
 	background-color:#000000;
 	color:#FFFFFF;
 	}
+
+p {font-family:"Times New Roman", Times, serif;} 
+h6 {font-size:10px;}
 	
 div.uc img {
 	padding-top:175px;
