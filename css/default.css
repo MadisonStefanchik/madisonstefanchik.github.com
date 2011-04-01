@@ -4,6 +4,7 @@ body {
 	}
 
 p {font-family:"Times New Roman", Times, serif;} 
+p.footer { text-align: center }
 h6 {font-size:10px;}
 	
 div.uc img {
