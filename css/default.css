@@ -10,5 +10,7 @@ div.uc img {
 	padding-left:325px;
 	}
 
-div.header {
-	
+a:link {color: #333333;}
+a:visited {color: #FF0044;}
+a:active {color: #FF0055;}
+a img {border: none;}
