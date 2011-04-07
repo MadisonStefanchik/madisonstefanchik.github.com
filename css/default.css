@@ -30,4 +30,5 @@ div.header a:visited {color: #D7C4C9;
 div.footer {
 	font-size: 10px;
 	font-style: "Arial Narrow";
+	p.centered {text-align: center;}
 }
