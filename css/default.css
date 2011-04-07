@@ -4,7 +4,7 @@ body {
 	color:#FFFFFF;
 
 	p {font-family:"Times New Roman", Times, serif;} 
-	p.center { text-align: center }
+	p.center { text-align: center; }
 	h6 {font-size:10px;}
 
 	a:link {color: #333333;}
