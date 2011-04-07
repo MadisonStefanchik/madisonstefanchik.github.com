@@ -1,26 +1,30 @@
+/* body css */
 body {
 	background-color:#000000;
 	color:#FFFFFF;
+
+	p {font-family:"Times New Roman", Times, serif;} 
+	p.center { text-align: center }
+	h6 {font-size:10px;}
+
+	a:link {color: #333333;}
+	a:visited {color: #FF0044;}
+	a:active {color: #FF0055;}
+	a img {border: none;}
+
+
+/*header css */
+
+	div.header {
+		color: #A90425;
+		font-size: 16px;		
 	}
 
-p {font-family:"Times New Roman", Times, serif;} 
-p.center { text-align: center }
-h6 {font-size:10px;}
+	div.header a:link {color: #D7C4C9;
+			text-decoration: none;}
+	div.header a:hover, a:active {color:#FF0044;
+			text-decoration: none;}
+	div.header a:visited {color: #D7C4C9;
+			text-decoration: none;}
 
-a:link {color: #333333;}
-a:visited {color: #FF0044;}
-a:active {color: #FF0055;}
-a img {border: none;}
-
-div.header{
-	a:link {color: #D7C4C9;
-		text-decoration: none;}
-	a:hover {color:#FF0044;
-		text-decoration: none;}
-	a:visited {color: #D7C4C9;
-		text-decoration: none;}
-	a:active {color: #FF0055;
-		text-decoration: none;}
-	color: #A90425;
-	font-size: 16px;		
 }
