@@ -11,6 +11,7 @@ body {
 	a:visited {color: #FF0044;}
 	a:active {color: #FF0055;}
 	a img {border: none;}
+}
 
 
 /*header css */
@@ -26,5 +27,3 @@ body {
 			text-decoration: none;}
 	div.header a:visited {color: #D7C4C9;
 			text-decoration: none;}
-
-}
