@@ -4,7 +4,7 @@ body {
 	color:#FFFFFF;
 
 	p {font-family:"Times New Roman", Times, serif;} 
-	p.center { text-align: center; }
+	p.center {text-align: center;}
 	h6 {font-size:10px;}
 
 	a:link {color: #333333;}
@@ -16,15 +16,15 @@ body {
 
 /*header css */
 
-	div.header {
-		color: #A90425;
-		font-size: 16px;
-		padding-bottom: 25px;		
-	}
+div.header {
+	color: #A90425;
+	font-size: 16px;
+	padding-bottom: 25px;		
+}
 
-	div.header a:link {color: #D7C4C9;
-			text-decoration: none;}
-	div.header a:hover, a:active {color:#FF0044;
-			text-decoration: none;}
-	div.header a:visited {color: #D7C4C9;
-			text-decoration: none;}
+div.header a:link {color: #D7C4C9;
+		text-decoration: none;}
+div.header a:hover, a:active {color:#FF0044;
+		text-decoration: none;}
+div.header a:visited {color: #D7C4C9;
+		text-decoration: none;}
