@@ -21,8 +21,6 @@ div.header{
 		text-decoration: none;}
 	a:active {color: #FF0055;
 		text-decoration: none;}
-	p {
-		color: #A90425;
-		font-size: 16px;
-			}
+	color: #A90425;
+	font-size: 16px;		
 }
