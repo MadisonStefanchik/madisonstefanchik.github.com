@@ -26,3 +26,8 @@ div.header a:hover, a:active {color:#FF0044;
 		text-decoration: none;}
 div.header a:visited {color: #D7C4C9;
 		text-decoration: none;}
+
+div.footer {
+	font-size: 10px;
+	font-style: "Arial Narrow";
+}
