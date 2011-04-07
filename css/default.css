@@ -13,9 +13,16 @@ a:active {color: #FF0055;}
 a img {border: none;}
 
 div.header{
-	a:link {color: #5B5959;}
-	a:hover {color:#FF0044;}
-	a:visited {color: #5B5959;}
-	a:active {color: #FF0055;}
-	color: #A90425;
+	a:link {color: #D7C4C9;
+		text-decoration: none;}
+	a:hover {color:#FF0044;
+		text-decoration: none;}
+	a:visited {color: #D7C4C9;
+		text-decoration: none;}
+	a:active {color: #FF0055;
+		text-decoration: none;}
+	p {
+		color: #A90425;
+		font-size: 16px;
+			}
 }
