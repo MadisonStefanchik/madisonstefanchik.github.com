@@ -11,3 +11,9 @@ a:link {color: #333333;}
 a:visited {color: #FF0044;}
 a:active {color: #FF0055;}
 a img {border: none;}
+
+div.header{
+	a:link {color: #5B5959;}
+	a:hover {color:#FF0044;}
+	a:visited {color: #5B5959;}
+	a:active {color: #FF0055;}
