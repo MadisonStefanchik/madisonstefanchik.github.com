@@ -15,6 +15,15 @@ p.centered {text-align: center;}
 p.header {padding:20px 0px 0px 0px;}
 p.menu {padding:75px 0px 0px 0px;}
 div.centered {text-align: center;}
+#mainimg {
+width:837px;
+height:372px;
+background-image : url(/images/trio_small_bw.jpg);
+}
+
+#mainimg:hover {
+background-image : url(/images/trio_small.jpg);
+} 
 
 div.header {
 	color: #A90425;
