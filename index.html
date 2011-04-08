@@ -18,7 +18,12 @@
 	<link rel="stylesheet" href="../css/default.css" media="screen, projection, print" type="text/css"/>
 
 	<!-- Javascript -->
-	<script type="text/javascript" src="/javascript/mo.js"></script> 
+	<SCRIPT LANGUAGE="JavaScript">
+	loadImage1 = new Image();
+	loadImage1.src = "/images/trio.jpg";
+	staticImage1 = new Image();
+	staticImage1.src = "/images/triobw.jpg";
+	</script>
 
 	<!--[if IE 6]>
 	<link href="/css/ie.css" rel="stylesheet" media="screen" type="text/css" />
@@ -40,8 +45,8 @@
 <body>
 	<div class="container">
 		<div class="span-24 last">
-			<span onmouseover="document.rollimg71.src=image71b.src;" onmouseout="document.rollimg71.src=image71a.src;">
-			<img src="/images/triobw.jpg" name="rollimg71" width="837" height="372" alt="Photo Sample" /></span>
+			<p class="centered"><a href="" onMouseOver="image1.src=loadImage1.src;" onMouseOut="image1.src=staticImage1.src;">
+			<img name="image1" src="/images/triobw.jpg" border=0></a></p>
 		</div>
 		<div class="prepend-19 span-5 last">
 			<a href="mailto:madisonstefanchik@gmail.com"><img src="/images/social-media-icons/email_32.png" alt="" /></a>
