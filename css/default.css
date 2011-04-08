@@ -51,8 +51,12 @@ a.singleRollover {
 	line-height: 0px;
 }
 
+a:visited.singleRollover {
+	background-position: 0;
+}
+
 a:hover.singleRollover {
-	background-position: 0 -372px;
+	background-position: 0 -744px;
 }
 
 a:active.singleRollover {
