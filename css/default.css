@@ -44,19 +44,15 @@ a.singleRollover {
 	display: block;
 	width: 837px;
 	height: 372px;
-	background: url(/images/main.jpg) no-repeat 0 0;
+	background: url(/images/main.jpg) no-repeat 0 0 transpa;
 	overflow: hidden;
 	text-indent: -10000px;
 	font-size: 0px;
 	line-height: 0px;
 }
 
-a:visited.singleRollover {
-	background-position: 0 -744px;
-}
-
 a:hover.singleRollover {
-	background-position: 0 -744px;
+	background-position: 0 -372px;
 }
 
 a:active.singleRollover {
