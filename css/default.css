@@ -1,3 +1,8 @@
+/* Default */
+p.centered {text-align: center;}
+div.centered {text-align: center;}
+
+/* Body CSS */
 body {
 	background-color:#000000;
 	color:#FFFFFF;
@@ -11,21 +16,9 @@ body {
 	a img {border: none;}
 }
 
-p.centered {text-align: center;}
+/* Headed CSS */
 p.header {padding:20px 0px 0px 40px;}
 p.menu {padding:75px 0px 0px 0px;}
-div.centered {text-align: center;}
-
-#anchor {
-width : 838px;
-height : 370px;
-background-image : url(/images/trio_small_bw.jpg);
-}
-
-#anchor:hover {
-background-image : url(/images/trio_small.jpg);
-}
-
 div.header {
 	color: #A90425;
 	font-size: 16px;
@@ -39,6 +32,7 @@ div.header a:hover, a:active {color:#FF0044;
 div.header a:visited {color: #D7C4C9;
 		text-decoration: none;}
 
+/* Footer CSS */
 div.footer {
 	font-size: 10px;
 	font-style: "Arial Narrow";
@@ -46,26 +40,25 @@ div.footer {
 }
 
 /* Rollover Effect */
-.mainimg {
-position:relative;
-background-image: url(/images/trio.JPG);
-background-repeat: no-repeat;
-width: 837px;
-height: 372px;
+a.singleRollover {
+	display: block;
+	width: 837px;
+	height: 372px;
+	background: url(images/main.png) no-repeat 0 0;
+	overflow: hidden;
+	text-indent: -10000px;
+	font-size: 0px;
+	line-height: 0px;
 }
-.mainimg a {
-font-size: 8px;
-width: 837px;
-height: 372px;
-color: black; text-decoration: none;
+
+a:visited.singleRollover {
+	background-position: 0 -372px;
 }
-.mainimg img {width: 100%; height: 100%; border: 0; }
-* html a:hover {visibility:visible}
-.mainimg a:hover img{visibility:hidden}
-.mainimg span {
-position:absolute;
-left:5px;
-top:3px;
-margin:0;
-cursor: pointer;
+
+a:hover.singleRollover {
+	background-position: 0 -744px;
+}
+
+a:active.singleRollover {
+	background-position: 0 -744px;
 }
