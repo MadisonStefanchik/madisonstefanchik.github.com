@@ -44,7 +44,7 @@ a.singleRollover {
 	display: block;
 	width: 837px;
 	height: 372px;
-	background: url(images/main.jpg) no-repeat 0 0;
+	background: url(/images/main.jpg) no-repeat 0 0;
 	overflow: hidden;
 	text-indent: -10000px;
 	font-size: 0px;
