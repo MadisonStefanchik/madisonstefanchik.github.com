@@ -16,15 +16,14 @@ p.header {padding:20px 0px 0px 40px;}
 p.menu {padding:75px 0px 0px 0px;}
 div.centered {text-align: center;}
 
-.yo a {
-display: block;
-width: 840px;
-height: 380px;
-background: transparent url(/images/trio_small.jpg) no-repeat;
+#anchor {
+width : 838px;
+height : 370px;
+background-image : url(/images/trio_small_bw.jpg);
 }
 
-.yo a:hover {
-background-position: -100px 0;
+#anchor:hover {
+background-image : url(/images/trio_small.jpg);
 }
 
 div.header {
