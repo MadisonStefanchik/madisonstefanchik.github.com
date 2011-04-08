@@ -12,18 +12,20 @@ body {
 }
 
 p.centered {text-align: center;}
-p.header {padding:20px 0px 0px 30px;}
+p.header {padding:20px 0px 0px 40px;}
 p.menu {padding:75px 0px 0px 0px;}
 div.centered {text-align: center;}
-#mainimg {
-width:837px;
-height:372px;
-background-image : url(/images/trio_small_bw.jpg);
+
+.yo a {
+display: block;
+width: 840px;
+height: 380px;
+background: transparent url(/images/trio_small.jpg) no-repeat;
 }
 
-#mainimg:hover {
-background-image : url(/images/trio_small.jpg);
-} 
+.yo a:hover {
+background-position: -100px 0;
+}
 
 div.header {
 	color: #A90425;
