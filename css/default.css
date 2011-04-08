@@ -52,7 +52,7 @@ a.singleRollover {
 }
 
 a:visited.singleRollover {
-	background-position: 0;
+	background-position: 0px;
 }
 
 a:hover.singleRollover {
