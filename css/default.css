@@ -32,3 +32,5 @@ div.footer {
 	font-style: "Arial Narrow";
 	p.centered {text-align: center;}
 }
+
+p.header {padding-top: 25px;}
