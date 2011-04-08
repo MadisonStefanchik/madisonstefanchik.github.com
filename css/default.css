@@ -44,3 +44,37 @@ div.footer {
 	font-style: "Arial Narrow";
 	p.centered {text-align: center;}
 }
+
+/* Rollover Effect */
+.mainimg {
+position:relative;
+font-family: arial, verdana, helvetica, sans-serif;
+background-image: url(images/trio.jpg);
+background-repeat: no-repeat;
+display: block;
+width: 837px;
+height: 372px;
+margin: 0;
+margin-bottom:0px;
+padding: 0;
+}
+.mainimg a {
+display:block;
+font-size: 8px;
+width: 837px;
+height: 372px;
+float: left;
+margin: 0;
+padding: 0;
+color: black; text-decoration: none;
+}
+.mainimg img {width: 100%; height: 100%; border: 0; }
+* html a:hover {visibility:visible}
+.mainimg a:hover img{visibility:hidden}
+.mainimg span {
+position:absolute;
+left:5px;
+top:3px;
+margin:0;
+cursor: pointer;
+}
