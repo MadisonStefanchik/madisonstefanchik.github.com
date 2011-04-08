@@ -44,7 +44,7 @@ a.singleRollover {
 	display: block;
 	width: 837px;
 	height: 372px;
-	background: url(/images/main.jpg) no-repeat 0 0 transpa;
+	background: url(/images/main.jpg) no-repeat 0 0;
 	overflow: hidden;
 	text-indent: -10000px;
 	font-size: 0px;
@@ -52,7 +52,7 @@ a.singleRollover {
 }
 
 a:visited.singleRollover {
-	background-position: 0;
+	background-position: 0 -372px;
 }
 
 a:hover.singleRollover {
@@ -60,5 +60,5 @@ a:hover.singleRollover {
 }
 
 a:active.singleRollover {
-	background-position: 0 -372px;
+	background-position: 0 -744px;
 }
