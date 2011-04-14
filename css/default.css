@@ -114,3 +114,6 @@ a:active.singleRollover {
 	#sddm div a:hover
 	{	background: #222;
 		color: #FF0044;}
+
+/* iframe css */
+div.contact {scrolling: auto;}
