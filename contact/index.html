@@ -30,19 +30,18 @@
 		</div>
 		<div class="header span-9 last">
 			<p class="menu"><ul id="sddm">
-			<li><a href="../index.html">home</a></li> | 
-			<li><a href="../about/">about</a></li> | 
+			<li><a href="../index.html">home</a></li>
 			<li><a href="../portfolio/" 
-				onmouseover="mopen('m2')" 
+				onmouseover="mopen('m1')" 
 				onmouseout="mclosetime()">portfolio</a>
-				<div id="m2" 
+				<div id="m1" 
 				onmouseover="mcancelclosetime()" 
 				onmouseout="mclosetime()">
 					<a href="../portfolio/projects/">projects</a>
 					<a href="../portfolio/artwork/">artwork</a>
 					<a href="../portfolio/photos">photos</a>
 				</div>
-			</li> | 
+			</li>
 			<li><a href="../contact/" 
 				onmouseover="mopen('m2')" 
 				onmouseout="mclosetime()">contact</a>
@@ -51,7 +50,7 @@
 				onmouseout="mclosetime()">
 					<a href="../resume/">resume</a>
 				</div>
-			</li> | 
+			</li>
 			<li><a href="http://www.madisonxleigh.tumblr.com">blog</a></li>
 			</ul>
 			<div style="clear:both"></div>
@@ -62,21 +61,28 @@
 <body>
 	<div class="container">
 		<div class="span-24 last">
-			<p class="centered"><img src="../images/underconstruction.JPG" alt="Under Construction, Darling"><br />
+			<div class="span-6">
+				<ul>
+				<li><a href="javascript:mybookinstance.refresh(bookonflowers)">Load Flowers Data Set (4 pages)</a></li>
+				<li><a href="javascript:mybookinstance.refresh(bookonanimals)">Load Animals Data Set (3 pages)</a></li>
+				<li><a href="javascript:mybookinstance.refresh(bookcombo)">Load Large Data Set (12 pages)</a> (Notice the 4 page range limit within pagination DIV)</li>
+				</ul>
+			</div>
+			<div class="span-18 last">
+				<div id="bookcontent"></div>
+			</div>
 			<div class="prepend-16 span-8 last">
 				<h3><a href="../resume/index.html">Click here to see my resume.</a></h3></p>
 			</div>
-		</div>
-		<div class="prepend-20 span-4 last">
-			<a href="mailto:madisonstefanchik@gmail.com"><img src="/images/social-media-icons/email_32.png" alt="" /></a>
-			<a href="http://www.linkedin.com/in/madisonstefanchik" target="_blank"><img src="/images/social-media-icons/linkedin_32.png" alt="" /></a>				
-			<a href="http://www.google.com/profiles/madisonleigh44" target="_blank"><img src="/images/social-media-icons/google_32.png" alt="" /></a>
-			<a href="http://www.facebook.com/pages/Madison-Leigh-Designs/189948897715503" target="_blank"><img src="/images/social-media-icons/facebook-32.png" alt="" /></a>
 		</div>
 		<div class="footer span-24 last">
 			<p class="centered">Copyright &copy; 2011 All Rights Reserved. Designed and coded by
 			<a href="http://www.madisonleighdesigns.com">Madison Leigh</a>. Icons by
 			<a href="http://www.komodomedia.com/blog/2009/06/social-network-icon-pack">komodomedia</a>.</p>
+			<a href="mailto:madisonstefanchik@gmail.com"><img src="/images/social-media-icons/email_32.png" alt="" /></a>
+			<a href="http://www.linkedin.com/in/madisonstefanchik" target="_blank"><img src="/images/social-media-icons/linkedin_32.png" alt="" /></a>				
+			<a href="http://www.google.com/profiles/madisonleigh44" target="_blank"><img src="/images/social-media-icons/google_32.png" alt="" /></a>
+			<a href="http://www.facebook.com/pages/Madison-Leigh-Designs/189948897715503" target="_blank"><img src="/images/social-media-icons/facebook-32.png" alt="" /></a>
 		</div>
 	</div>
 </body>

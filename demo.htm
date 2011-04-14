@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Dynamic Drive DHTML Scripts- Ajax Pagination script</title>
+<link rel="stylesheet" type="text/css" href="ajaxpagination.css" />
+
+<script src="ajaxpagination.js" type="text/javascript">
+
+/***********************************************
+* Ajax Pagination script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+</head>
+
+<body>
+
+<ul>
+<li><a href="javascript:mybookinstance.refresh(bookonflowers)">Load Flowers Data Set (4 pages)</a></li>
+<li><a href="javascript:mybookinstance.refresh(bookonanimals)">Load Animals Data Set (3 pages)</a></li>
+<li><a href="javascript:mybookinstance.refresh(bookcombo)">Load Large Data Set (12 pages)</a> (Notice the 4 page range limit within pagination DIV)</li>
+</ul>
+
+<div id="paginate-top"> </div>
+<div id="bookcontent"> </div>
+<div id="paginate-bottom"> </div>
+
+<p><a href="javascript:mybookinstance.selectpage(1)">Select 2nd page dynamically</a></p>
+
+
+<script type="text/javascript">
+
+var bookonflowers={
+pages: ["demofiles/flower.htm", "demofiles/flower2.htm", "demofiles/flower3.htm", "demofiles/flower4.htm"],
+selectedpage: 0 //set page shown by default (0=1st page)
+}
+
+var bookonanimals={
+pages: ["demofiles/external.htm", "demofiles/external2.htm", "demofiles/external3.htm"],
+selectedpage: 0 //set page shown by default (0=1st page)
+}
+
+var bookcombo={
+pages: ["demofiles/flower.htm", "demofiles/flower2.htm", "demofiles/flower3.htm", "demofiles/flower4.htm", "demofiles/external.htm", "demofiles/external2.htm", "demofiles/external3.htm", "demofiles/flower.htm", "demofiles/flower2.htm", "demofiles/flower3.htm", "demofiles/flower4.htm", "demofiles/external.htm"],
+selectedpage: 0 //set page shown by default (0=1st page)
+}
+
+var mybookinstance=new ajaxpageclass.createBook(bookonflowers, "bookcontent", ["paginate-top", "paginate-bottom"])
+
+</script>
+
+<p>Configurable variables within .js file: <br />
+
+<pre>
+var ajaxpageclass=new Object()
+ajaxpageclass.loadstatustext="Requesting content, please wait..." // HTML to show while requested page is being fetched:
+ajaxpageclass.ajaxbustcache=false // Bust cache when fetching pages?
+ajaxpageclass.paginatepersist=true //enable persistence of last viewed pagination link (so reloading page doesn't reset page to 1)?
+ajaxpageclass.pagerange=4 // Limit page links displayed to a specific number (useful if you have many pages in your book)?
+ajaxpageclass.ellipse="..." // Ellipse text (no HTML allowed)
+</pre>
+
+
+<p><b>Documentation:</b> <a href="http://www.dynamicdrive.com/dynamicindex17/ajaxpaginate/">http://www.dynamicdrive.com/dynamicindex17/ajaxpaginate/</a></p>
+
+
+
+</body>
+
+</html>

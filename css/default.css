@@ -1,6 +1,7 @@
 /* Default */
 p.centered {text-align: center;}
 div.centered {text-align: center;}
+p.justified (text-align:justify;}
 
 /* Body CSS */
 body {
