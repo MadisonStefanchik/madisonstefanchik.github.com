@@ -62,3 +62,54 @@ a:hover.singleRollover {
 a:active.singleRollover {
 	background-position: 0px -372px;
 }
+
+/* Nav Menu */
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30;}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: 11px arial;}
+
+#sddm li a
+{	display: block;
+	margin: 0 0 0 0;
+	padding: 0;
+	width: 60px;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;}
+
+#sddm li a:hover
+{	background: #222;
+	color: #FF0044;}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #000;}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 0px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #000;
+		color: #FFF;
+		font: 11px arial;}
+
+	#sddm div a:hover
+	{	background: #222;
+		color: #FF0044;}
