@@ -137,7 +137,8 @@ div.frameLinks {
 
 div.frameLinks a {
 	display: block;
-	font: 22px "Verdana";
+	font-size: 22px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	margin: 50% 5% 50% 5%;
 	width: 72px;
 	color: #FFF;
