@@ -130,17 +130,19 @@ div.frameLinks {
 	border-right-style:dotted;
 	border-bottom-style:none;
 	border-left-style:none;
-	border-color: #444;
+	border-color:#444;
+	border-width:2px;
+	width:50%;
+	margin:auto;
 	}
 
 p.frameLinks {
-	text-align: center;
+	margin: 65px 0px 65px 0px;
 	}
 
 div.frameLinks a {
 	display: block;
 	font: 22px "Verdana";
-	margin: 70px 0px 70px 45px;
 	padding: 0;
 	width: 72px;
 	color: #FFF;
