@@ -124,7 +124,8 @@ a:active.singleRollover {
 	}
 
 div.frameLinks a {
-	font: 20px "Verdana";
+	display: inline-block;
+	font: 24px "Verdana";
 	margin: 25px 0px 25px 50px;
 	padding: 0;
 	width: 72px;
