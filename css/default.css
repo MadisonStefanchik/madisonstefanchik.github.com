@@ -38,7 +38,7 @@ div.header a:visited {color: #D7C4C9;
 div.footer {
 	font-size: 10px;
 	font-style: "Arial Narrow";
-	p.centered {text-align: center;}
+	text-align: center;
 }
 
 /* Rollover Effect */
@@ -110,15 +110,29 @@ a:active.singleRollover {
 		text-decoration: none;
 		background: #000;
 		color: #FFF;
-		font: 11px arial;}
+		font: 11px "arial";}
 
 	#sddm div a:hover
 	{	background: #222;
 		color: #FF0044;}
 
-/* iframe css */
-div.contact {width:700px;
-height:650px;
-overflow:scroll;}
+/* Contact CSS */
+.iFrame {width:700px;
+	height:650px;
+	overflow:scroll;}
 
-{
+div.frameLinks a {padding-top:25px;
+	padding-bottom:25px;
+	padding-left:50px;
+	color:#FFF}
+
+div.frameLinks a:visited {
+	color:#FFF;}
+
+div.frameLinks a:hover {
+	color:#FF0044;
+	font-weight: bold;}
+
+div.frameLinks a:active {
+	color:#FF0044;}
+div.aboutMe {font: "Palatino Linotype";} 
