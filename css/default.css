@@ -115,6 +115,7 @@ a:active.singleRollover {
 	{	background: #222;
 		color: #FF0044;}
 
+
 /* Contact CSS */
 .iFrame {
 	width:780px;
@@ -123,14 +124,17 @@ a:active.singleRollover {
 	overflow-y: auto;
 	}
 
+div.frameLinks {
+	text-align: center;
+	}
+
 div.frameLinks a {
 	display: block;
 	font: 22px "Verdana";
-	margin: 28px 0px 28px 0px;
+	margin: 30px 0px 30px 0px;
 	padding: 0;
 	width: 72px;
 	color: #FFF;
-	text-align: center;
 	text-decoration: none;}
 
 div.frameLinks a:visited {
@@ -143,12 +147,14 @@ div.frameLinks a:hover {
 div.frameLinks a:active {
 	color:#FF0044;}
 
+
 /* About Me CSS */
 div.about {
 	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 	font-size: 12px;
 	color: #FFF;
 	text-align: justify;} 
+
 div.about a{
 	color:#555;
 	}
