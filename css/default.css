@@ -124,14 +124,14 @@ a:active.singleRollover {
 	overflow-y: auto;
 	}
 
-div.frameLinks {
+p.frameLinks {
 	text-align: center;
 	}
 
 div.frameLinks a {
 	display: block;
 	font: 22px "Verdana";
-	margin: 30px 0px 30px 0px;
+	margin: 50px 0px 50px 0px;
 	padding: 0;
 	width: 72px;
 	color: #FFF;
