@@ -132,9 +132,12 @@ div.frameLinks {
 	border-left-style:none;
 	border-color:#444;
 	border-width:2px;
+	}
+
+p.frameLinks {
 	margin-left: 45px;
 	}
-p.frameLinks
+
 p.middleLink {
 	margin: 65px 0px 65px 0px;
 	}
