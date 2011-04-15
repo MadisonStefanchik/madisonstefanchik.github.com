@@ -135,11 +135,11 @@ div.frameLinks {
 	}
 
 p.frameLinks {
-	margin-left: 45px;
+	margin: 25px 50% 45px 50%;
 	}
 
-p.middleLink {
-	margin: 65px 0px 65px 0px;
+p.lastLink {
+	margin: 25px 50% 25px 50%;
 	}
 
 div.frameLinks a {
