@@ -118,9 +118,15 @@ a:active.singleRollover {
 /* Contact CSS */
 .iFrame {
 	width:780px;
-	height:450px;
+	height:400px;
+	border:
 	overflow-x: hidden;
-	overflow-y: auto;}
+	overflow-y: auto;
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:none;
+	border-left-style:solid;
+	border-color:#222}
 
 div.frameLinks a {
 	display: block;
