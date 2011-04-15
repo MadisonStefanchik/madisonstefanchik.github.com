@@ -35,6 +35,7 @@ div.header a:hover, a:active {
 
 /* Footer CSS */
 div.footer {
+	padding-top: 15px;
 	font-size: 10px;
 	font-style: "Arial Narrow";
 	text-align: center;
@@ -124,6 +125,14 @@ a:active.singleRollover {
 	overflow-y: auto;
 	}
 
+div.frameLinks {
+	border-top-style:none;
+	border-right-style:dotted;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-color: #444;
+	}
+
 p.frameLinks {
 	text-align: center;
 	}
@@ -131,7 +140,7 @@ p.frameLinks {
 div.frameLinks a {
 	display: block;
 	font: 22px "Verdana";
-	margin: 50px 0px 50px 0px;
+	margin: 65px 0px 65px 20px;
 	padding: 0;
 	width: 72px;
 	color: #FFF;
