@@ -66,11 +66,6 @@ a:active.singleRollover {
 }
 
 /* Nav Menu */
-
-li.other {
-	border-left: 1px;
-	border-color: #FFF;}
-
 #sddm
 {	margin: 0;
 	padding: 0;
@@ -149,4 +144,5 @@ div.frameLinks a:active {
 
 /* About Me CSS */
 div.aboutMe {
-	font: "Palatino Linotype";} 
+	font: "Palatino Linotype";
+	width:748px;} 
