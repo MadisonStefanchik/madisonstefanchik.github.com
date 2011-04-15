@@ -132,8 +132,7 @@ div.frameLinks {
 	border-left-style:none;
 	border-color:#444;
 	border-width:2px;
-	width:50%;
-	margin:auto;
+	margin-left: 45px;
 	}
 
 p.frameLinks {
