@@ -134,8 +134,8 @@ div.frameLinks {
 	border-width:2px;
 	margin-left: 45px;
 	}
-
-p.frameLinks {
+p.frameLinks
+p.middleLink {
 	margin: 65px 0px 65px 0px;
 	}
 
@@ -160,7 +160,6 @@ div.frameLinks a:active {
 
 /* About Me CSS */
 div.about {
-	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 	font-size: 12px;
 	color: #FFF;
 	text-align: justify;} 
