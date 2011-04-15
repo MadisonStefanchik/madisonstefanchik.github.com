@@ -109,7 +109,7 @@ a:active.singleRollover {
 		text-decoration: none;
 		background: #000;
 		color: #FFF;
-		font: 11px "arial";}
+		font: 11px arial;}
 
 	#sddm div a:hover
 	{	background: #222;
@@ -119,14 +119,9 @@ a:active.singleRollover {
 .iFrame {
 	width:780px;
 	height:400px;
-	border:
 	overflow-x: hidden;
 	overflow-y: auto;
-	border-top-style:none;
-	border-right-style:none;
-	border-bottom-style:none;
-	border-left-style:solid;
-	border-color:#222}
+	}
 
 div.frameLinks a {
 	display: block;
@@ -150,6 +145,7 @@ div.frameLinks a:active {
 
 /* About Me CSS */
 div.about {
-	font: "Palatino Linotype" 12px;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-size: 12px;
 	color: #FFF;
 	text-align: justify;} 
