@@ -31,14 +31,35 @@
 	<![endif]-->
 
 	<div class="container">
-		<div class="span-16">
+		<div class="padderBottom span-16">
 			<p class="header"><a href="../"><img src="/images/tempheader.jpg" alt="header"/></a></p>
 		</div>
-		<div class="header span-8 last">
-			<p class="menu"><a href="../about/">about</a> | 
-			<a href="../portfolio/">portfolio</a> | 
-			<a href="../contact/">contact</a> | 
-			<a href="http://madisonxleigh.tumblr.com">blog</a></p>
+		<div class="header padderBottom span-8 last">
+			<p class="menu"><ul id="sddm">
+			<li><a href="../index.html">home</a></li>
+			<li><a href="../portfolio/" 
+				onmouseover="mopen('m1')" 
+				onmouseout="mclosetime()">portfolio</a>
+				<div id="m1" 
+				onmouseover="mcancelclosetime()" 
+				onmouseout="mclosetime()">
+					<a href="../portfolio/projects/">projects</a>
+					<a href="../portfolio/artwork/">artwork</a>
+					<a href="../portfolio/photos">photos</a>
+				</div>
+			</li>
+			<li><a href="../contact/" 
+				onmouseover="mopen('m2')" 
+				onmouseout="mclosetime()">contact</a>
+				<div id="m2" 
+				onmouseover="mcancelclosetime()" 
+				onmouseout="mclosetime()">
+					<a href="../resume/">resume</a>
+				</div>
+			</li>
+			<li><a href="http://www.madisonxleigh.tumblr.com">blog</a></li>
+			</ul>
+			<div style="clear:both"></div>
 		</div>
 	</div>
 </head>
