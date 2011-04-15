@@ -134,18 +134,18 @@ div.frameLinks {
 	border-width:2px;
 	}
 
-p.frameLinks {
-	margin: 10% 50% 20% 50%;
-	}
-
-p.lastLink {
+div.lastLink a {
 	margin: 10% 50% 10% 50%;
-	}
+	display: block;
+	font: 22px "Verdana";
+	width: 72px;
+	color: #FFF;
+	text-decoration: none;}
 
 div.frameLinks a {
 	display: block;
 	font: 22px "Verdana";
-	padding: 0;
+	margin: 10% 50% 20% 50%;
 	width: 72px;
 	color: #FFF;
 	text-decoration: none;}
