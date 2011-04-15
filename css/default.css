@@ -1,6 +1,7 @@
 /* Default */
 p.centered {text-align: center;}
 div.centered {text-align: center;}
+div.centered h3 {font-size:18px;}
 div.padderBottom {margin-bottom:30px;} 
 
 /* Body CSS */
@@ -164,3 +165,5 @@ div.about {
 div.about a{
 	color:#555;
 	}
+
+/* Resume */
