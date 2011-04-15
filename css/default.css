@@ -1,7 +1,6 @@
 /* Default */
 p.centered {text-align: center;}
 div.centered {text-align: center;}
-div.justified {text-align:justify;}
 div.padderBottom {margin-bottom:30px;} 
 
 /* Body CSS */
@@ -125,7 +124,7 @@ a:active.singleRollover {
 
 div.frameLinks a {
 	display: block;
-	font: 24px "Verdana";
+	font: 20px "Verdana";
 	margin: 25px 0px 25px 50px;
 	padding: 0;
 	width: 72px;
@@ -144,6 +143,8 @@ div.frameLinks a:active {
 	color:#FF0044;}
 
 /* About Me CSS */
-div.aboutMe {
-	font: "Palatino Linotype";
-	width:699px;} 
+div.about {
+	font: "Palatino Linotype" 12px;
+	color: #FFF;
+	width: 699px;
+	text-align: justify;} 
