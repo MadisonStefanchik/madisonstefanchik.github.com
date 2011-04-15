@@ -27,12 +27,12 @@ div.header {
 	padding-bottom: 25px;		
 }
 
-div.header a:link {color: #D7C4C9;
-		text-decoration: none;}
-div.header a:hover, a:active {color:#FF0044;
-		text-decoration: none;}
-div.header a:visited {color: #D7C4C9;
-		text-decoration: none;}
+div.header a:link, a:visited {
+	color:#FF0044;
+	text-decoration: none;}
+div.header a:hover, a:active {
+	color: #D7C4C9;
+	text-decoration: none;}
 
 /* Footer CSS */
 div.footer {
@@ -85,11 +85,11 @@ a:active.singleRollover {
 	width: 60px;
 	background: #000;
 	color: #FFF;
+	background: #222;
 	text-align: center;
 	text-decoration: none;}
 
 #sddm li a:hover {
-	background: #222;
 	color: #FF0044;}
 
 #sddm div {
