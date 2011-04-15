@@ -66,6 +66,11 @@ a:active.singleRollover {
 }
 
 /* Nav Menu */
+
+li.other {
+	border-left: 1px;
+	border-color: #FFF;}
+
 #sddm
 {	margin: 0;
 	padding: 0;
@@ -78,8 +83,8 @@ a:active.singleRollover {
 	float: left;
 	font: 11px arial;}
 
-#sddm li a
-{	display: block;
+#sddm li a {
+	display: block;
 	margin: 0 0 0 0;
 	padding: 0;
 	width: 60px;
@@ -88,12 +93,12 @@ a:active.singleRollover {
 	text-align: center;
 	text-decoration: none;}
 
-#sddm li a:hover
-{	background: #222;
+#sddm li a:hover {
+	background: #222;
 	color: #FF0044;}
 
-#sddm div
-{	position: absolute;
+#sddm div {
+	position: absolute;
 	visibility: hidden;
 	margin: 0;
 	padding: 0;
@@ -117,15 +122,20 @@ a:active.singleRollover {
 		color: #FF0044;}
 
 /* Contact CSS */
-.iFrame {width:700px;
+.iFrame {
+	width:700px;
 	height:450px;
 	overflow-x: hidden;
 	overflow-y: auto;}
 
-div.frameLinks a {padding-top:25px;
-	padding-bottom:25px;
-	padding-left:50px;
-	color:#FFF}
+div.frameLinks a {
+	display: block;
+	margin: 25px 0px 25px 50px;
+	padding: 0;
+	width: 72px;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;}
 
 div.frameLinks a:visited {
 	color:#FFF;}
@@ -136,4 +146,7 @@ div.frameLinks a:hover {
 
 div.frameLinks a:active {
 	color:#FF0044;}
-div.aboutMe {font: "Palatino Linotype";} 
+
+/* About Me CSS */
+div.aboutMe {
+	font: "Palatino Linotype";} 
