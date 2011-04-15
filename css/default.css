@@ -117,7 +117,7 @@ a:active.singleRollover {
 
 /* Contact CSS */
 .iFrame {
-	width:700px;
+	width:780px;
 	height:450px;
 	overflow-x: hidden;
 	overflow-y: auto;}
@@ -146,5 +146,5 @@ div.frameLinks a:active {
 div.about {
 	font: "Palatino Linotype" 12px;
 	color: #FFF;
-	width: 699px;
+	width: 750px;
 	text-align: justify;} 
