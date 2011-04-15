@@ -2,6 +2,7 @@
 p.centered {text-align: center;}
 div.centered {text-align: center;}
 div.justified {text-align:justify;}
+div.padderBottom {margin-bottom:30px;} 
 
 /* Body CSS */
 body {
@@ -116,4 +117,8 @@ a:active.singleRollover {
 		color: #FF0044;}
 
 /* iframe css */
-div.contact {scrolling: auto;}
+div.contact {width:700px;
+height:650px;
+overflow:scroll;}
+
+{
