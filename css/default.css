@@ -125,6 +125,7 @@ a:active.singleRollover {
 
 div.frameLinks a {
 	display: block;
+	font: 24px "Verdana";
 	margin: 25px 0px 25px 50px;
 	padding: 0;
 	width: 72px;
@@ -145,4 +146,4 @@ div.frameLinks a:active {
 /* About Me CSS */
 div.aboutMe {
 	font: "Palatino Linotype";
-	width:748px;} 
+	width:699px;} 
