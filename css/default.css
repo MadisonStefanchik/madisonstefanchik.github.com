@@ -138,7 +138,7 @@ div.frameLinks {
 div.frameLinks a {
 	display: block;
 	font: 22px "Verdana";
-	margin: 50%;
+	margin: 50% 5% 50% 5%;
 	width: 72px;
 	color: #FFF;
 	text-decoration: none;}
