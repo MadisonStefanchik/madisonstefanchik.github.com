@@ -118,8 +118,9 @@ a:active.singleRollover {
 
 /* Contact CSS */
 .iFrame {width:700px;
-	height:650px;
-	overflow:scroll;}
+	height:450px;
+	overflow-x: hidden;
+	overflow-y: auto;}
 
 div.frameLinks a {padding-top:25px;
 	padding-bottom:25px;
