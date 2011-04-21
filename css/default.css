@@ -176,3 +176,14 @@ div.about a{
 	}
 
 /* Resume */
+
+
+/* Portfolio */
+div.portfolio {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-image: url();
+	background-position: center;
+	background-repeat: repeat-y;
+	position: relative;
+}
