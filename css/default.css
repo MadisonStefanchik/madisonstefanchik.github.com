@@ -4,6 +4,14 @@ div.centered {text-align: center;}
 div.centered h3 {font-size:18px;}
 div.padderBottom {margin-bottom:30px;} 
 
+@font-face {
+    font-family: "Amandine";
+    src: url(../fonts/amandine/Amandine.ttf);
+}
+p.customfont { 
+    font-family: "Amandine";
+}
+
 /* Body CSS */
 body {
 	background-color:#000000;
@@ -138,6 +146,7 @@ div.frameLinks {
 
 div.frameLinks a {
 	display: block;
+	text-align: center;
 	font-size: 22px;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	margin: 50% 5% 50% 5%;
