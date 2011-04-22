@@ -6,7 +6,7 @@ div.padderBottom {margin-bottom:30px;}
 
 @font-face {
     font-family: "Amandine";
-    src: url(../fonts/amandine/Amandine.ttf);
+    src: url(/fonts/amandine/Amandine.ttf);
 }
 p.customfont { 
     font-family: "Amandine";
